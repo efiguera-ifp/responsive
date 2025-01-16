@@ -1,0 +1,49 @@
+html{
+    font-size: 32px;
+}
+
+h1{ 
+    text-align: center;
+}
+/*-----movil----*/
+@media screen and (max-width:480px) {
+
+    body{ 
+        background: red;
+    
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+
+
+}
+/*----Tablet----*/
+@media screen and (min-width:481px) and (max-width:1279px) {
+
+    body{ 
+        background: lightskyblue;
+    
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    
+}
+
+/*---ordenador---*/
+
+@media screen and (min-width:1280px)  {
+
+    body{ 
+        background: lightcoral;
+    
+    }
+    
+    h1{
+        font-size: 4rem;
+    }
+}
